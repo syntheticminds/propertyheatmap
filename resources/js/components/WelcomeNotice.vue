@@ -9,7 +9,7 @@
         </button>
 
         <p class="font-bold mb-2">Welcome to Property Heatmap!</p>
-        <p class="mb-2">This is a hastily-made prototype to replace the previous version that broke. It's now open-source!</p>
+        <p class="mb-2">This is a hastily-made prototype to replace the previous version that broke. <a href="https://github.com/syntheticminds/propertyheatmap" class="text-blue-400 underline hover:no-underline" target="_blank">It's now open-source!</a></p>
         <p>Click the map to find the average five-year price for that area. You can zoom in to the postcode level.</p>
     </div>
 </template>
