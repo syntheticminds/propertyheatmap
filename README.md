@@ -12,7 +12,9 @@ This is a prototype I have been working on for some time. It's far from complete
 1. `composer install`
 2. `npm install`
 3. `cp .env.example .env` and configure accordingly.
-4. `php artisan app:bootstrap`
+4. `php artisan key:generate`
+5. `php artisan migrate`
+6. `php artisan app:bootstrap`
 
 # Notes
 * SQLite is bloody fast, if you treat it well.
