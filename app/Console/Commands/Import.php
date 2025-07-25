@@ -39,7 +39,7 @@ class Import extends Command
     {
         $this->info('Resetting database');
 
-        $this->callSilent('migrate:fresh --force');
+        $this->callSilent('migrate:fresh', ['--force']);
 
         $this->info('Importing areas');
 
